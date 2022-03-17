@@ -26,7 +26,7 @@ header {
 .wrap #nav .header_logo {
 	position: relative;
 	width: 60px;
-	height: 45.5px;
+	height: 45.5px; 
 	float: left;
 	padding-top: 12px;
 	padding-left: 144px;
@@ -149,11 +149,48 @@ body .wrap .search_box .search_inner span .closing_btn {
 	min-width: 320px;
 	overflow: hidden;
 }
+.main_contents .main_top_content{
+	overflow: hidden;
+	width: 1903px;
+	height: 875px;
+}
+.main_contents .main_top_content ul{
+	display: flex;
+}
+.main_contents .main_top_content .slide{
+	width: 9515px;
+}
+.main_contents .main_top_content .slide li{
+	width: 1903px;
+	height: 685px;
+}
 .wrap .main_contents img.main_top_area {
 	position: relative;
 	display: inline-block;
 	max-width: 100%;
 	top: 70px;
+}
+.main_top_content .barbtn .bar{
+	display: block;
+    float: left;
+    margin: 95px 2px 0 2px;
+    width: 60px;
+    height: 4px;
+    background-color: #d6d6d6;
+    text-indent: -9999%;
+    position: relative;
+    left: 41.5%;
+}
+.main_top_content .barbtn .barColor{
+	display: block;
+    float: left;
+    margin: 95px 2px 0 2px;
+    width: 60px;
+    height: 4px;
+    background-color: #00833f;
+    text-indent: -9999%;
+    position: relative;
+    left: 41.5%;
 }
 .wrap .main_contents p.controls a{
     width: 36px;
@@ -176,14 +213,18 @@ body .wrap .search_box .search_inner span .closing_btn {
 .main_top_text {
 	text-align: center;
 }
-.main_contents img.main_downscroll {
+.main_contents .main_top_scroll {
 	border: 1px solid #d6d6d6;
 	display: block;
-	width: 12px;
-	height: 23px;
-	margin: 165px auto 0;
+	width: 22px;
+	height: 30px;
+	margin: 35px auto 0;
 	padding: 10px 15px;
 	position: relative;
+}
+.main_contents .main_downscroll {
+	margin: auto;
+	margin-top: 5px;
 }
 .wrap .main_mid_area img.main_mid_img {
 	max-width: 100%;
