@@ -65,3 +65,16 @@ img {
     overflow: hidden;
 }
 input{vertical-align: middle;}
+
+.nomargin_t{
+    margin-top: 0;
+}
+.nomargin_r{
+    margin-right: 0;
+}
+.nomargin_b{
+    margin-bottom: 0;
+}
+.nomargin_l{
+    margin-left: 0;
+}

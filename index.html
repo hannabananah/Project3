@@ -7,8 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>한국델몬트후레쉬프로듀스</title>
 	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/index.css" />
 	<link rel="stylesheet" href="css/fonts/font.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/react.css">
+
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" href="css/slick-theme.css" />
+
 	<link rel="icon" type="image/png" sizes="16x16" href="image/favicons/favicon-16x16.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="image/favicons/favicon-32x32.png" />
 	<link rel="apple-touch-icon" sizes="57x57" href="image/favicons/apple-touch-icon-57x57.png" />
@@ -33,7 +38,7 @@
 				<ul class="gnb cf">
 					<li class="fl">
 						<h1>
-							<a href="index.html"><images src="image/logo.png" alt="델몬트로고" class="header_logo" /></a>
+							<a href="index.html"><img src="image/logo.png" alt="델몬트로고" class="header_logo" /></a>
 						</h1>
 					</li>
 					<li class="fl depth1">
@@ -46,11 +51,11 @@
 						</ul>
 					</li>
 					<li class="fl depth1">
-						<a href="sub1.html">제품소개</a>
+						<a href="sub2.html">제품소개</a>
 						<ul class="depth2">
-							<li><a href="sub1.html">신선과일·채소</a></li>
-							<li><a href="sub1.html">과일보감·채소보감</a></li>
-							<li><a href="sub1.html">B2B제품</a></li>
+							<li><a href="sub2.html">신선과일·채소</a></li>
+							<li><a href="sub2.html">과일보감·채소보감</a></li>
+							<li><a href="sub2.html">B2B제품</a></li>
 							<li><a href="#"></a></li>
 						</ul>
 					</li>
@@ -64,11 +69,11 @@
 						</ul>
 					</li>
 					<li class="fl depth1">
-						<a href="sub1.html">소식</a>
+						<a href="sub2.html">소식</a>
 						<ul class="depth2">
-							<li><a href="sub1.html">뉴스</a></li>
-							<li><a href="sub1.html">광고</a></li>
-							<li><a href="sub1.html">캠페인</a></li>
+							<li><a href="sub2.html">뉴스</a></li>
+							<li><a href="sub2.html">광고</a></li>
+							<li><a href="sub2.html">캠페인</a></li>
 							<li><a href="#"></a></li>
 						</ul>
 					</li>
@@ -80,10 +85,10 @@
 							<li><a href="#"></a></li>
 							<li><a href="#"></a></li>
 						</ul>
-					</li>f
+					</li>
 					<li class="fl">
 						<div class="header_search">
-							<a href="#"><images src="image/btn_search.png" alt="검색"></a>
+							<a href="#"><img src="image/btn_search.png" alt="검색"></a>
 						</div>
 					</li>
 				</ul>
@@ -94,9 +99,9 @@
 						<legend class="alt">검색창</legend>
 						<div class="search_inner">
 							<input class="search_input" type="search" value placeholder="검색어를 입력해주세요..">
-							<span><a href="#" class="closing_btn">
-									<images src="../Delmonte/image/btn_search_close.png" alt="검색창닫기">
-								</a></span>
+							<span><a href="#" class="closing_btn"></a>
+								<img src="../Delmonte/image/btn_search_close.png" alt="검색창닫기">
+							</span>
 						</div>
 					</fieldset>
 				</form>
@@ -104,22 +109,22 @@
 		</header>
 		<div class="main_contents cf">
 			<div class="main_top_content">
-				<ul class="slide">
+				<ul class="slide slick_main_photo">
 					<li>
-						<images src="image/img_main_top_slide_list1.jpg" alt="메인사진1" class="main_top_area" />
+						<img src="image/img_main_top_slide_list1.jpg" alt="메인사진1" class="main_top_area" />
 					</li>
 					<li>
-						<images src="image/img_main_top_slide_list2.jpg" alt="메인사진2" class="main_top_area" />
+						<img src="image/img_main_top_slide_list2.jpg" alt="메인사진2" class="main_top_area" />
 					</li>
 					<li>
-						<images src="image/img_main_top_slide_list3.jpg" alt="메인사진3" class="main_top_area" />
+						<img src="image/img_main_top_slide_list3.jpg" alt="메인사진3" class="main_top_area" />
 					</li>
 					<li>
-						<images src="image/img_main_top_slide_list8.jpg" alt="메인사진4" class="main_top_area" />
+						<img src="image/img_main_top_slide_list8.jpg" alt="메인사진4" class="main_top_area" />
 					</li>
 					<li>
-						<images src="image/img_main_top_slide_list9.jpg" alt="메인사진5" class="main_top_area" />
-					</li>	
+						<img src="image/img_main_top_slide_list9.jpg" alt="메인사진5" class="main_top_area" />
+					</li>
 				</ul>
 				<ul class="barbtn">
 					<li class="bar"></li>
@@ -128,42 +133,48 @@
 					<li class="bar"></li>
 					<li class="bar"></li>
 				</ul>
-				<p class="controls">
-					<a href="#" class="prev">prev</a>
-					<a href="#" class="next">next</a>
-				</p>
 				<div class="main_top_text"></div>
 				<div class="main_top_scroll">
-					<images src="image/btn_main_arrow_down.png" class="main_downscroll" alt="다운스크롤" />
+					<img src="image/btn_main_arrow_down.png" class="main_downscroll" alt="다운스크롤" />
 				</div>
 			</div>
 			<div class="main_mid_area cf">
-				<images src="image/img_main_mid_slide_list1.jpg" alt="서브사진1" class="main_mid_img" />
+				<ul class="slide slick_photo">
+					<li>
+						<img src="image/img_main_mid_slide_list1.jpg" alt="서브사진1" class="main_mid_img" />
+					</li>
+					<li>
+						<img src="image/img_main_mid_slide_list2.jpg" alt="서브사진2" class="main_mid_img" />
+					</li>
+					<li>
+						<img src="image/img_main_mid_slide_list3.jpg" alt="서브사진3" class="main_mid_img" />
+					</li>
+				</ul>
 				<div class="main_mid_btn cf">
 					<div class="main_mid_btn1">
-						<images src="image/img_main_check_ti_1.png" alt="버튼사진1" />
+						<img src="image/img_main_check_ti_1.png" alt="버튼사진1" />
 						<p class="mid_head gudea_B">Fresh Fruit · Vegetable</p>
 						<p class="mid_text">
 							대표 과일 바나나와 골드파인에서<br />
 							국내과일과 채소까지 자연 그대로의<br />
 							맛을 선사합니다.
 						</p>
-						<p class="mid_box gudea_B">View</p>
+						<p class="mid_box gudea_R">View</p>
 					</div>
 					<div class="main_mid_btn2">
-						<images src="image/img_main_check_ti_2.png" alt="버튼사진2" />
+						<img src="image/img_main_check_ti_2.png" alt="버튼사진2" />
 						<p class="mid_head gudea_B">Del Monte Take-Out Dessert</p>
 						<p class="mid_text">과일보감은 엄선된 과일에 편리함을 <br />더한 델몬트의 신선편의 브랜드입니다</p>
-						<p class="mid_box gudea_B">View</p>
+						<p class="mid_box gudea_R">View</p>
 					</div>
 					<div class="main_mid_btn3">
-						<images src="image/img_main_check_ti_3.png" alt="버튼사진3" />
+						<img src="image/img_main_check_ti_3.png" alt="버튼사진3" />
 						<p class="mid_head gudea_B">Del Monte Take-Out Dessert</p>
 						<p class="mid_text">
 							세척부터 손질까지 채소보감이 당신의<br />
 							건강한 일상을 함께 합니다
 						</p>
-						<p class="mid_box gudea_B">View</p>
+						<p class="mid_box gudea_R">View</p>
 					</div>
 				</div>
 			</div>
@@ -173,9 +184,9 @@
 					<h2 class="bottom_title">Del Monte Brand Story</h2>
 					<span class="year">-Since 1892-</span>
 					<p class="downertext">델몬트의 120년 품질 노하우와 선진 관리 시스템으로 최고의 제품만을 선사합니다</p>
-					<p class="mid_box"><a href="sub1.html" class="gudea_B">View</a></p>
+					<p class="mid_box"><a href="sub1.html" class="gudea_R">View</a></p>
 				</div>
-				<images src="image/bg_main_bottom.jpg" alt="공장사진" class="main_bottom_img" />
+				<img src="image/bg_main_bottom.jpg" alt="공장사진" class="main_bottom_img" />
 			</div>
 		</div>
 		<footer>
@@ -187,7 +198,7 @@
 						<a class="footer_lang_bt3" href="#"></a>
 						<a class="footer_lang_bt4" href="#"></a>
 					</div>
-					<div class="footer_logo"><images src="image/logo_footer.png" alt="푸터로고" class="footer_logo_img" />
+					<div class="footer_logo"><img src="image/logo_footer.png" alt="푸터로고" class="footer_logo_img" />
 					</div>
 					<div class="main_footer_sns">
 						<a class="footer_sns1" href="#"></a>
@@ -207,14 +218,28 @@
 					보호받습니다.
 				</address>
 				<p class="copyrights">
-					<images src="image/copyright.png" alt="저작권" />
+					<img src="image/copyright.png" alt="저작권" />
 				</p>
 			</div>
 		</footer>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js
-	"></script>
-	<script src="Java/jq.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/detectmobilebrowser.js"></script>
+	<script src="js/jq.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script>
+		if (jQuery.browser.mobile == true) {
+			location.href = "./mobile/index.html"
+		}
+	</script>
+
+	<script>
+		$('.slick_photo').slick({
+			infinite: true,
+			speed: 1000,
+		});
+	</script>
 </body>
 
 </html>

@@ -22,7 +22,7 @@ window.onload = function(){
             bar[j].classList.remove('barColor');
         }
         slide.style.transition = `2s`;
-        slide.style.transform = `translate3d(-${1423*i}px, 0px, 0px)`;
+        slide.style.transform = `translate3d(-${1903*i}px, 0px, 0px)`;
         i++
 
         bar[i-1].classList.add('barColor');        
