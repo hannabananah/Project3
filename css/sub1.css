@@ -378,6 +378,9 @@ body .wrap .search_box .search_inner span .closing_btn {
   .sub_contents_bottom
   .sub_contents_quality_area
   .quality_list_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 100%;
   overflow: hidden;
 }
@@ -401,6 +404,15 @@ body .wrap .search_box .search_inner span .closing_btn {
   .quality_list_box
   .quality_list.list4 {
   margin-right: 0px;
+}
+#sub_contents_area
+  .sub_contents_inner
+  .sub_contents_bottom
+  .sub_contents_quality_area
+  .quality_list_box
+  .quality_list .img_quality img {
+    max-width: 235px;
+    width: 100%;
 }
 #sub_contents_area
   .sub_contents_inner
