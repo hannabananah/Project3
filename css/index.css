@@ -178,21 +178,21 @@
     padding: 5px 10px 5px;
 }
 
-.wrap .main_mid_area .main_mid_btn .main_mid_btn1:hover p.mid_head,
-.wrap .main_mid_area .main_mid_btn .main_mid_btn2:hover p.mid_head,
-.wrap .main_mid_area .main_mid_btn .main_mid_btn3:hover p.mid_head {
+.wrap .main_mid_area .main_mid_btn1:hover p.mid_head,
+.wrap .main_mid_area .main_mid_btn2:hover p.mid_head,
+.wrap .main_mid_area .main_mid_btn3:hover p.mid_head {
     color: #00833f;
 }
 
-.wrap .main_mid_area .main_mid_btn .main_mid_btn1:hover p.mid_text,
-.wrap .main_mid_area .main_mid_btn .main_mid_btn2:hover p.mid_text,
-.wrap .main_mid_area .main_mid_btn .main_mid_btn3:hover p.mid_text {
+.wrap .main_mid_area .main_mid_btn1:hover p.mid_text,
+.wrap .main_mid_area .main_mid_btn2:hover p.mid_text,
+.wrap .main_mid_area .main_mid_btn3:hover p.mid_text {
     color: #6f6f6f;
 }
 
-.wrap .main_mid_area .main_mid_btn .main_mid_btn1:hover p.mid_box,
-.wrap .main_mid_area .main_mid_btn .main_mid_btn2:hover p.mid_box,
-.wrap .main_mid_area .main_mid_btn .main_mid_btn3:hover p.mid_box {
+.wrap .main_mid_area .main_mid_btn1:hover p.mid_box,
+.wrap .main_mid_area .main_mid_btn2:hover p.mid_box,
+.wrap .main_mid_area .main_mid_btn3:hover p.mid_box {
     background-color: #00833f;
     color: #fff;
 }
