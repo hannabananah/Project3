@@ -350,7 +350,7 @@
     margin: auto;
   }
   .gnb li {
-    width: 15%;
+    width: 20%;
     text-align: center;
   }
   .gnb li.depth1 {
@@ -366,6 +366,7 @@
   }
   .wrap #nav .header_logo {
     padding-left: 13px;
+    display: none;
   }
   body .wrap .header_search a img {
     display: none;

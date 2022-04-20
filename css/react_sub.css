@@ -398,8 +398,8 @@
     .quality_list_box
     .quality_list
     p {
-      font-size: 18px;
-      margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
   #sub_contents_area .sub_contents_inner .sub_contents_bottom {
     max-width: 660px;
@@ -444,7 +444,7 @@
     margin-right: 0;
   }
   .wrap #nav .header_logo {
-    padding-left: 45px;
+    display: nones;
   }
   body .wrap .header_search a img {
     display: none;
@@ -583,9 +583,12 @@
     .quality_list_box
     .quality_list
     p {
-      font-size: 18px;
-      margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
+ .footer_logo_img{
+   display: none;
+ }
   #sub_contents_area .sub_contents_inner .sub_contents_bottom {
     max-width: 480px;
     width: 100%;

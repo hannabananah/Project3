@@ -479,16 +479,13 @@
   -moz-user-select: none;
   user-select: none;
 }
-
 .fr-close-background,
 .fr-close-icon {
   position: absolute;
-  top: 210px;
+  top: 212px;
   left: -5px;
-  height: 26px;
-  width: 26px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  height: 23px;
+  width: 23px;
 }
 .fr-close-background {
   background-color: #000;
@@ -1142,7 +1139,7 @@
 .fr-window-skin-fresco .fr-close-icon,
 .fr-window-skin-fresco .fr-thumbnails-side-button-icon,
 .fr-window-skin-fresco .fr-error-icon {
-  background-image: url("../image/sprite.svg");
+  background-image: url("../image/btn_detail_close.png");
 }
 
 /* fallback png sprite */
@@ -1150,7 +1147,7 @@
 .fr-window-skin-fresco.fr-no-svg .fr-close-icon,
 .fr-window-skin-fresco.fr-no-svg .fr-thumbnails-side-button-icon,
 .fr-window-skin-fresco .fr-error-icon {
-  background-image: url("../image/sprite.png");
+  background-image: url("../image/btn_detail_close.png");
 }
 
 .fr-window-skin-fresco .fr-error-icon {
@@ -1403,7 +1400,7 @@
 
 /* - transition */
 .fr-window-skin-fresco.fr-svg .fr-close .fr-close-icon {
-  background-position: -210px -8px;
+  background-position: -209px -11px;
   opacity: 0.8;
 }
 .fr-window-skin-fresco .fr-close:hover .fr-close-icon {
