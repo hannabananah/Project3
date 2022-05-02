@@ -6,30 +6,32 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>한국델몬트후레쉬프로듀스</title>
-	<link rel="stylesheet" href="../../../css/reset.css" />
+	<link rel="stylesheet" href="../../css/reset.css" />
 	<link rel="stylesheet" href="../../css/index.css" />
 	<link rel="stylesheet" href="../../css/fonts/font.css" />
 
-	<link rel="stylesheet" href="../../css/react.css">
+	<link rel="stylesheet" href="../css/reset.css">
 
-	<link rel="stylesheet" type="text/css" href="../../css/slick.css" />
-	<link rel="stylesheet" href="../../css/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="../css/slick.css" />
+	<link rel="stylesheet" href="../css/slick-theme.css" />
 
-	<link rel="icon" type="../image/png" sizes="16x16" href="../../image/favicons/favicon-16x16.png" />
-	<link rel="icon" type="../image/png" sizes="32x32" href="../../image/favicons/favicon-32x32.png" />
-	<link rel="apple-touch-icon" sizes="57x57" href="../../image/favicons/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon" sizes="60x60" href="../../image/favicons/apple-touch-icon-60x60.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="../../image/favicons/apple-touch-icon-72x72.png" />
-	<link rel="apple-touch-icon" sizes="76x76" href="../../image/favicons/apple-touch-icon-76x76.png" />
-	<link rel="icon" type="../image/png" sizes="96x96" href="../../image/favicons/apple-touch-icon-96x96.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="../../image/favicons/apple-touch-icon-114x114.png" />
-	<link rel="apple-touch-icon" sizes="120x120" href="../../image/favicons/apple-touch-icon-120x120.png" />
-	<link rel="apple-touch-icon" sizes="144x144" href="../../image/favicons/apple-touch-icon-144x144.png" />
-	<link rel="apple-touch-icon" sizes="152x152" href="../../image/favicons/apple-touch-icon-152x152.png" />
-	<link rel="apple-touch-icon" sizes="180x180" href="../../image/favicons/apple-touch-icon-180x180.png" />
-	<link rel="icon" type="../image/png" sizes="192x192" href="../../image/favicons/android-icon-192x192.png" />
-	<meta name="msapplication-TileColor" content="#ffffff" />
-	<meta name="theme-color" content="#ffffff" />
+	<link rel="shortcut icon" href="../image/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="../image/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../image/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../image/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../image/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../image/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../image/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../image/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../image/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../image/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -134,10 +136,6 @@
 					<li class="bar"></li>
 					<li class="bar"></li>
 				</ul>
-				<!-- <p class="controls">
-					<a href="../#" class="prev">prev</a>
-					<a href="../#" class="next">next</a>
-				</p> -->
 				<div class="main_top_text"></div>
 				<div class="main_top_scroll">
 					<img src="../image/btn_main_arrow_down.png" class="main_downscroll" alt="다운스크롤" />
@@ -155,10 +153,6 @@
 						<img src="../image/img_main_mid_slide_list3.jpg" alt="서브사진3" class="main_mid_img" />
 					</li>
 				</ul>
-				<!-- <p class="controls">
-					<a href="../#" class="prev">prev</a>
-					<a href="../#" class="next">next</a>
-				</p> -->
 				<div class="main_mid_btn cf">
 					<div class="main_mid_btn1">
 						<img src="../image/img_main_check_ti_1.png" alt="버튼사진1" />
@@ -237,21 +231,11 @@
 	<script src="../js/jq.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script>
-        if(jQuery.browser.mobile==false){
-            location.href="../index.html"
-        }
-    </script>
-
-	<!-- <script>
-		$('.slick_main_photo').slick({
-			infinite: true,
-			autoplay: true,
-			autoplaySpeed: 5000,
-			speed: 3000,
-		});
-	</script> -->
-
+	<script>
+		if (jQuery.browser.mobile == false) {
+			location.href = "../index.html"
+		}
+	</script>
 	<script>
 		$('.slick_photo').slick({
 			infinite: true,

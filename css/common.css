@@ -337,11 +337,22 @@ footer .main_footer_bottom .policy {
     border: 1px solid #e6e6e6;
     font-size: 14px;
     text-align: center;
-    color: #6e6e6e;
+    color: #222;
     cursor: pointer;
+}
+footer .main_footer_bottom .policy:hover {
+    font-weight: bold;
+    border: 1px solid #969696;
 }
 
 footer .main_footer_bottom address {
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 21px;
+    font-style: normal;
+    color: #6e6e6e;
+}
+footer .main_footer_bottom address a{
     padding-top: 15px;
     font-size: 13px;
     line-height: 21px;
